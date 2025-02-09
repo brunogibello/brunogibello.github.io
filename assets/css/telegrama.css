@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Press+Start+2P&family=Special+Elite&display=swap');
+
+
+body {
+    background-color: #ffe3b3;
+}
+
+.telegrama {
+    width: 400px;
+    background: #f8e8c8;
+    padding: 3px;
+    border-radius: 8px;
+    margin-top: 50%;
+    border: 2px dashed #8b6f47;
+    font-family: 'Cinzel';
+    position: relative;
+    text-align: center;
+}
+
+.telegrama h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #4b382a;
+    margin-bottom: 10px;
+}
+
+.telegrama p {
+    font-size: 14px;
+    color: #5a4635;
+    margin: 5px 0;
+}
+
+.mensagem {
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    border-left: 4px solid #8b6f47;
+}
+
+.selo {
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(circle, #c0392b, #8b0000);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+}
+
+
+button {
+    margin-top: 30px;
+    float: right;
+    border-radius: 10px;
+    outline: 0;
+    padding: 10px;
+    background-color: #caae7e;
+    color: #595151;
+    border: 1px solid #595151;
+    margin-right: 35px;
+    margin-bottom: 15px;
+   }

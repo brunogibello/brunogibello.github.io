@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Press+Start+2P&family=Special+Elite&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffe3b3;
+    font-family: 'Special Elite';
+}
+
+.desenho-pergaminho {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.pergaminho1 {
+    background: linear-gradient(#f8ba0e, #977106);
+    width: 100%;
+    height: 20px;
+    padding: 15px;
+    border-radius: 50px;
+}
+.pergaminho2 {
+    background: linear-gradient(#e9c483, #f3ce8f, #f0c67d);
+    border-bottom: 3px solid black;
+    width: 90%;
+    padding: 15px;
+    margin-left: 20px;
+    height: 30px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.pergaminho3 {
+    background: linear-gradient(#e9c483, #f3ce8f, #f0c67d);
+    width: 90%;
+    margin-left: 20px;
+    height: 800px;
+    margin-top: -20px;
+    border-radius: 10px;
+}
+.pergaminho4 {
+    display: flex;
+    justify-content: flex-end;
+    background: linear-gradient(#f8ba0e, #977106);
+    width: 100%;
+    height: 20px;
+    border-radius: 50px;
+    padding: 15px;
+}
+.pergaminho5 {
+    background: linear-gradient(#e9c483, #f3ce8f, #f0c67d);
+    border-top: 3px solid black;
+    width: 90%;
+    padding: 15px;
+    margin-left: 20px;
+    height: 30px;
+    margin-top: -30px;
+    border-radius: 20px;
+}
+
+p {
+    padding: 30px;
+    padding-top: 30px;
+    font-size: 17px;
+    
+}
+
+button {
+    float: right;
+    border-radius: 10px;
+    outline: 0;
+    padding: 10px;
+    background-color: #caae7e;
+    color: #595151;
+    border: 1px solid #595151;
+    margin-right: 35px;
+    margin-bottom: 15px;
+   }
